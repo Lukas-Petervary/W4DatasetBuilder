@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+#mainContent {
+    display: flex;
+    gap: 20px;
+}
+
+#leftPanel {
+    width: 50%;
+}
+
+#jsonViewer {
+    width: 50%;
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+#jsonDisplay {
+    height: 400px;
+    overflow-y: auto;
+    background: #f8f9fa;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    outline: none;
+    font-family: monospace;
+}
+
+h2 {
+    text-align: center;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 10px 0;
+}
+
+button {
+    display: block;
+    width: 30vw;
+    min-width: 10vw;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#attributeContainer {
+    margin-top: 15px;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}

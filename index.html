@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>W4-11 Dataset Builder</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="mainContent">
+            <div id="leftPanel">
+                <h2>W4-11 Dataset Builder</h2>
+                <div id="attributeSource">
+                    <h3>Customize Dataset</h3>
+                    <input type="file" id="fileInput" accept=".json,.csv">
+                </div>
+                <div id="attributeSelector">
+                    <h3>Select Attributes to Keep</h3>
+                    <div id="dataSelectorContainer"></div>
+                </div>
+                <div id="attributeMerger">
+                    <h3>Merge Attributes</h3>
+                    <input type="file" id="mergeFileInput" accept=".json,.csv">
+                    <div id="mergeSelectorContainer"></div>
+                    <button id="mergeJson">Merge File</button>
+                </div>
+                <button id="exportJson">Export JSON</button>
+            </div>
+
+            <div id="jsonViewer">
+                <h3>Live Preview (Editable)</h3>
+                <pre id="jsonDisplay" contenteditable="true"></pre>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
